@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    padding: 10%;
+    font-size: 1.2rem;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+input,button,label{
+font-size: inherit;
+}
+p{
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-indent: 2em;
+    line-height: 1.4;
+}
+a{
+    /* text-decoration: none;
+    cursor: hand; */
+    color: red;
+}
+a:hover{
+    color: chocolate;
+}
+a:active{
+    color: green;
+}
+
+ul{
+    list-style-type: "lower-roman";
+    /* list-style-type: "hi "; */
+    /* list-style-image: url(../images/html.png); */
+}
+ul li:nth-child(2){
+    color: pink;
+}
+/* sudo element- particular part of element  */
+::marker{
+    color: gray;
+}
+
+ul li:nth-child(2)::marker{
+    color: pink;
+}
+/* 
+a:visited{
+    color: blue;
+} */

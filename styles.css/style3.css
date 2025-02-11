@@ -1,0 +1,40 @@
+html {
+    /* font-size: 25px; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+h1 {
+    border: 2px dashed pink;
+    font-size: 2rem;
+    padding: 1em;
+    width: 50%;
+    text-align: center;
+}
+
+main {
+    font-size: 1.5rem;
+    width: 50vw;
+}
+
+p {
+    /* refer parent size - main */
+    font-size: 1.6em;
+    width: 40ch;
+}
+.circle{
+    border: 10px solid green;
+    width: 100px;
+    height: 100px;
+    margin: 48px auto;
+    outline: 5px dashed black;
+    outline-offset: 10px;
+    border-radius: 50%;
+}

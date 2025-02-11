@@ -1,0 +1,21 @@
+.right{
+    float: right;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.left{
+    float: right;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(133, 1, 111);
+}
+.clear{
+    clear: both;
+}
+.container{
+    border: 2px solid sandybrown;
+    padding: 1rem;
+    /* display: flow-root; */
+    overflow: auto;
+}

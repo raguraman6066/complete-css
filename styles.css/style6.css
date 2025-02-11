@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    background-color: gray;
+}
+
+/* for inline we can apply margin and papding.. use inline-block */
+.opposite{
+    background-color: gold;
+    margin-top: 100px;
+    display: inline-block;
+    padding: 4rem;
+}
+ul{
+    list-style-type: none;
+    background-color: blue;
+    text-align: right;
+    padding: 1rem;
+
+}
+
+ul li{
+    display: inline-block;
+    margin-inline: 1rem;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    text-decoration: underline;
+    color: brown;
+
+}
